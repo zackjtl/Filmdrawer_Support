@@ -1,6 +1,6 @@
-# Filmdrawer Support
+# FilmDrawer Support
 
-Support and privacy pages for **Filmdrawer**, a memory card photo organizer for Mac.
+Support and privacy pages for **FilmDrawer**, a memory card photo organizer for Mac.
 
 - Website: https://zackjtl.github.io/Filmdrawer_Support/
 - Privacy policy: https://zackjtl.github.io/Filmdrawer_Support/privacy.html
