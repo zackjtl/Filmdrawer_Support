@@ -1,0 +1,30 @@
+:root {
+  --bg: #f7f7f9; --fg: #1d1d1f; --muted: #6e6e73; --card: #ffffff; --line: #e3e3e8; --accent: #5b6cf0;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161618; --fg: #f2f2f4; --muted: #a1a1a6; --card: #1f1f22; --line: #333338; --accent: #8c98ff; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "PingFang TC", "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-bottom: 24px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 20px; color: var(--fg); text-decoration: none; }
+.brand img { border-radius: 9px; }
+nav { font-size: 14px; color: var(--muted); }
+a { color: var(--accent); }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px 24px 16px; margin-bottom: 20px; }
+h1 { font-size: 26px; margin: 16px 0 4px; }
+h2 { font-size: 18px; margin: 24px 0 8px; }
+.date { color: var(--muted); font-size: 14px; margin-top: 0; }
+li { margin-bottom: 8px; }
+dt { font-weight: 600; margin-top: 14px; }
+dd { margin: 4px 0 0; color: var(--fg); }
+code { font-size: 0.9em; background: var(--bg); border: 1px solid var(--line); border-radius: 5px; padding: 0 4px; }
+.button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 6px 14px; border-radius: 8px; font-weight: 600; margin-left: 4px; }
+.hero { text-align: center; padding: 40px 0 8px; }
+.hero img { width: 128px; height: 128px; }
+.hero h1 { font-size: 36px; }
+.hero p { color: var(--muted); font-size: 18px; margin: 4px 0 20px; }
+.links { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
